@@ -1,9 +1,9 @@
-var User = require('./controllers/user.server.controller')
+var RSS = require('./controllers/rss.server.controller')
 
 module.exports = function (app) {
 
-  app.get('/api-ggl', User.welcome);
+  app.get('/api-ggl', RSS.welcome);
 
-  app.post('/api-ggl/getCategory', User.getCategory);
+  app.post('/api-ggl/getCategory', RSS.getCategory);
 
 };

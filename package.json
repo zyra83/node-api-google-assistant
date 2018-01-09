@@ -44,6 +44,8 @@
     "passport": "^0.2.2",
     "q": "^1.4.1",
     "slug": "^0.9.1",
-    "web-push": "^3.2.2"
+    "web-push": "^3.2.2",
+    "dom-parser": "0.1.5",
+    "html-entities": "1.2.1"
   }
 }
